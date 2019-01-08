@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import PaperEx from './PaperEx'
+import LoginModule from './LoginModule'
 
 const styles = theme => ({
   root: {
@@ -49,9 +50,20 @@ class GridLayout extends React.Component {
           <Grid container className={classes.demo} justify="center" spacing={Number(spacing)}>
             
               <Grid key="4" item>
+                <LoginModule/>
+              </Grid>
+              <Grid key="5"item>
+                <Paper className={classes.paper} />
+              </Grid>
+                      
+          </Grid>
+
+          <Grid container className={classes.demo} justify="center" spacing={Number(spacing)}>
+            
+              <Grid key="6" item>
                 <PaperEx />
               </Grid>
-              <Grid key="5 "item>
+              <Grid key="7"item>
                 <Paper className={classes.paper} />
               </Grid>
                       

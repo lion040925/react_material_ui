@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import './App.css';
 import GridLayout from './GridLayout';
 import MyAppBar from './MyAppBar';
+import { auth, googleAuthProvider } from './firebase'
 
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
       <Fragment>   
         <MyAppBar />  
         <GridLayout/>
+        
       </Fragment>
     );
   }
