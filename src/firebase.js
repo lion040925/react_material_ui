@@ -13,4 +13,5 @@ import firebase from "firebase";
 
   // at the bottom of src/firebase.js
 export const auth = firebase.auth()
-export const googleAuthProvider = new firebase.auth.GoogleAuthProvider()
+export const googleAuthProvider = new firebase.auth.GoogleAuthProvider() 
+export default firebase;
