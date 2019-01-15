@@ -21,14 +21,14 @@ import PhonelinkSetupIcon from '@material-ui/icons/PhonelinkSetup';
 
 const categories = [
   {
-    id: '주요업무',
+    id: '사용자업무',
     children: [
-      { id: '인증', icon: <PeopleIcon />, active: true },
+      { id: '인증', icon:<PeopleIcon />, active: true },
       { id: '출석체크', icon: <DnsRoundedIcon /> },    
     ],
   },
   {
-    id: '관리업무',
+    id: '관리자업무',
     children: [
       { id: '사용자등록', icon: <SettingsIcon /> },     
     ],
